@@ -14,7 +14,7 @@ version: 1.1.1
 
 *  interests
 
-   - haskell, odin, rust, elixir
+   - haskell, odin, elixir
    - functional programming and system programming
 
 *  experiences
@@ -78,7 +78,7 @@ version: 1.1.1
 
     @project.meta
     lang: python
-    status: in slow migration to rust
+    status: stable in v0.2.0
     homepage: https://github.com/metaboulie/marimo-themes
     description: marimo theming management
     @end
