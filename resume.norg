@@ -15,7 +15,6 @@ version: 1.1.1
 *  interests
 
    - haskell, odin, elixir
-   - functional programming and system programming
 
 *  experiences
 
@@ -23,7 +22,7 @@ version: 1.1.1
 
     @experience.meta
     interval: 2024/07 ~ 2024/08
-    position: intern
+    position: software engineer intern
     homepage: https://marimo.io/
     @end
 
@@ -32,29 +31,20 @@ version: 1.1.1
      @pr.meta
      link: https://github.com/marimo-team/marimo/pull/1881
      category: feat
-     title: format_mapping for marimo.ui.table
+     title: format_mapping for ui.table
      @end
 
-     introduces content formatting for tables, supports both GUI based /
-     application mode (frontend) and builtin api mode (backend).
-
-     @pr.meta
-     link: https://github.com/marimo-team/marimo/pull/1981
-     category: feat
-     title: redirecting error messages
-     @end
-
-     adds a command-line option to `marimo run` that forwards console logs to
-     the frontend.
+     introduces content formatting for tables, supports both GUI
+     based mode (frontend) and python api mode (backend)
 
      @pr.meta
      link: https://github.com/marimo-team/marimo/pull/2126
      category: feat
-     title: marimo.app_meta.theme
+     title: marimo.app_meta.theme and custom themers
      @end
 
-     introduces a new mechanism for managing and applying themes across
-     different plotting libraries used within Marimo notebooks.
+     introduces a new mechanism for switching between light/dark themes across
+     different plotting libraries used within Marimo notebooks
 
 *  side projects
 
@@ -64,15 +54,15 @@ version: 1.1.1
     lang: odin
     status: in very early dev and private
     homepage: NA
-    description: opinionated neorg index management.
+    description: opinionated neorg index management
     @end
 
     a cli tool to parse all neorg files inside a workspace and organize a
-    hierarchy system of indexing.
+    hierarchy system of indexing
 
-    user can then generate a static website from the parsed neorg workspace.
+    user can then generate a static website from the parsed neorg workspace
 
-    ^ [neorg]{https://github.com/nvim-neorg/neorg} is a {https://neovim.io/}[Neovim] plugin designed to reimagine organization.
+    ^ [neorg]{https://github.com/nvim-neorg/neorg} is a {https://neovim.io/}[Neovim] plugin designed to reimagine organization
 
     **  motheme
 
@@ -83,7 +73,7 @@ version: 1.1.1
     description: marimo theming management
     @end
 
-    a minimal cli tool to manage custom themes for marimo.
+    a minimal cli tool to manage custom themes for marimo
 
 **  mowidget
 
@@ -94,15 +84,15 @@ version: 1.1.1
     description: a collection of marimo widgets
     @end
 
-    a collection of widgets to use inside marimo.
+    a collection of widgets to use inside marimo
 
-**  {https://github.com/marimo-team/learn/tree/main/functional_programming}[functional programming course] of [marimo-learn]
+**  {https://github.com/marimo-team/learn/tree/main/functional_programming}[fp course] of [marimo-learn]
 
     @project.meta
     lang: python
     status: towards the initial complete release
     homepage: https://github.com/marimo-team/learn/blob/main/functional_programming/README.md
-    description: a systematic course about functional programming presented with marimo
+    description: a systematic course about fp presented with marimo
     @end
 
     i'm currently composing a collection of notebooks as learning concepts in
