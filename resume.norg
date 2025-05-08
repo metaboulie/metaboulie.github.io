@@ -14,7 +14,8 @@ version: 1.1.1
 
 *  interests
 
-   - haskell, odin, elixir
+   - programming language
+   - software design
 
 *  experiences
 
@@ -63,39 +64,3 @@ version: 1.1.1
     user can then generate a static website from the parsed neorg workspace
 
     ^ [neorg]{https://github.com/nvim-neorg/neorg} is a {https://neovim.io/}[Neovim] plugin designed to reimagine organization
-
-    **  motheme
-
-    @project.meta
-    lang: python
-    status: stable in v0.2.0
-    homepage: https://github.com/metaboulie/marimo-themes
-    description: marimo theming management
-    @end
-
-    a minimal cli tool to manage custom themes for marimo
-
-**  mowidget
-
-    @project.meta
-    lang: python, javascript
-    status: towards v1.0.0
-    homepage: https://github.com/metaboulie/marimo-widgets
-    description: a collection of marimo widgets
-    @end
-
-    a collection of widgets to use inside marimo
-
-**  {https://github.com/marimo-team/learn/tree/main/functional_programming}[fp course] of [marimo-learn]
-
-    @project.meta
-    lang: python
-    status: towards the initial complete release
-    homepage: https://github.com/marimo-team/learn/blob/main/functional_programming/README.md
-    description: a systematic course about fp presented with marimo
-    @end
-
-    i'm currently composing a collection of notebooks as learning concepts in
-    functional programming
-
-    ^ [marimo-learn]{https://github.com/marimo-team/learn} is a subproject of [marimo]{https://github.com/marimo-team/marimo}
